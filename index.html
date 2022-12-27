@@ -1,0 +1,609 @@
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ <style>
+ 	p{
+ 	font-size:2cm; 
+ }
+ body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  text-align: center;
+  margin-top: 360px;
+}
+.btn{
+  border: 1px solid #e74c14;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1{
+  color: #f30d0d;
+}
+.btn2{
+  color: #f3bd0d;
+}
+.btn3,.btn4{
+  color: #fff;
+}
+.btn1:hover,.btn2:hover{
+  color: #fff;
+}
+.btn3:hover,.btn4:hover{
+  color: #f37c0d;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #f37c0d;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn2::before,.btn4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn3::before,.btn4::before{
+  height: 180%;
+}
+.btn1:hover::before,.btn2:hover::before{
+  height: 180%;
+}
+.btn3:hover::before,.btn4:hover::before{
+  height: 0%;
+}
+
+ </style>
+ <script language="JavaScript">
+ function WinOpen()
+ {
+window.open("zadanie1.html","zadanie_1","toolbar=no,directories=no,menubar=no,height=720,width=1024,top=200,left=200");
+ }
+ function WinOpen1()
+ {
+window.open("zadanie1_kod.html","zadanie_1_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen2()
+ {
+window.open("zadanie2.html","zadanie_2","toolbar=no,directories=no,menubar=no,height=720,width=1024,top=200,left=200");
+ }
+
+ function WinOpen3()
+ {
+window.open("zadanie2_kod.html","zadanie_2_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen4()
+ {
+window.open("zadanie3.html","zadanie3","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen5()
+ {
+window.open("zadanie4.html","zadanie4","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen5_1()
+ {
+window.open("zadanie4_kod.html","zadanie4_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+}
+ function WinOpen7()
+ {
+window.open("zadanie5.html","zadanie5","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen7_1()
+ {
+window.open("zadanie5_kod.html","zadanie5_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen6()
+ {
+window.open("zadanie3_kod.html","zadanie3_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen8()
+ {
+window.open("zadanie6.html","zadanie6","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+
+function WinOpen8_1()
+ {
+ window.open("zadanie6_kod.html","zadanie6_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+}
+
+ function WinOpen9()
+ {
+window.open("zadanie7.html","zadanie7","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+function WinOpen9_1()
+ {
+ window.open("zadanie7_kod.html","zadanie7_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+}
+  function WinOpen10()
+ {
+window.open("zadanie8.html","zadanie8","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+function WinOpen10_1()
+ {
+ window.open("zadanie8_kod.html","zadanie8_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen11()
+ {
+ window.open("zadanie9.html","zadanie9","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+  function WinOpen11_1()
+ {
+ window.open("zadanie9_kod.html","zadanie9kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+  function WinOpen12()
+ {
+ window.open("zadanie10.html","zadanie10","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+  function WinOpen12_1()
+ {
+ window.open("zadanie10_kod.html","zadanie10_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ 
+  function WinOpen13()
+ {
+ window.open("zadanie11.html","zadanie11","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+  function WinOpen13_1()
+ {
+ window.open("zadanie11_kod.html","zadanie11_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen14()
+ {
+ window.open("zadanie12.html","zadanie12","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen14_1()
+ {
+ window.open("zadanie12_kod.html","zadanie12_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen15()
+ {
+ window.open("zadanie13.html","zadanie13","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen15_1()
+ {
+ window.open("zadanie13_kod.html","zadanie13_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen16()
+ {
+ window.open("zadanie18.html","zadanie18","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen16_1()
+ {
+ window.open("zadanie18_kod.html","zadanie18_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen17()
+ {
+ window.open("zadanie19.html","zadanie19","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen17_1()
+ {
+ window.open("zadanie19_kod.html","zadanie19_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+
+ function WinOpen18()
+ {
+ window.open("zadanie14a.html","zadanie14","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen18_1()
+ {
+ window.open("zadanie14a_kod.html","zadanie14_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen19()
+ {
+ window.open("zadanie14b.html","zadanie14b","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen19_1()
+ {
+ window.open("zadanie14b_kod.html","zadanie14b_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen20()
+ {
+ window.open("zadanie17.html","zadanie17","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen20_1()
+ {
+ window.open("zadanie17_kod.html","zadanie17_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen21()
+ {
+ window.open("zadanie23.html","zadanie23","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen21_1()
+ {
+ window.open("zadanie23_kod.html","zadanie23_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen22()
+ {
+ window.open("zadanie21.html","zadanie21","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen22_1()
+ {
+ window.open("zadanie21_kod.html","zadanie21_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen23()
+ {
+ window.open("zadanie20.html","zadanie20","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen23_1()
+ {
+ window.open("zadanie20_kod.html","zadanie20_kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen24()
+ {
+ window.open("zadanie24.html","zadanie24","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen25()
+ {
+ window.open("zadanie25.html","zadanie25","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen25_1()
+ {
+ window.open("zadanie25kod.html","zadanie25kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen24_1()
+ {
+ window.open("zadanie24kod.html","zadanie24kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen26_1()
+ {
+ window.open("zadanie26kod.html","zadanie26kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen27_1()
+ {
+ window.open("zadanie27kod.html","zadanie27kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen28_1()
+ {
+ window.open("zadanie28kod.html","zadanie28kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen26()
+ {
+ window.open("zadanie26.html","zadanie26","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen27()
+ {
+ window.open("zadanie27.html","zadanie27","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen28()
+ {
+ window.open("zadanie28.html","zadanie28","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen23()
+ {
+ window.open("zadanie14.html","zadanie14","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen23_1()
+ {
+ window.open("zadanie14kod.html","zadanie14kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen62()
+ {
+ window.open("zadanie62.html","zadanie62","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen62_1()
+ {
+ window.open("zadanie62_kod.html","zadanie62kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen63()
+ {
+ window.open("zadanie63.html","zadanie63","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen63_1()
+ {
+ window.open("zadanie63_kod.html","zadanie63kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen64()
+ {
+ window.open("zadanie64.html","zadanie64","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen64_1()
+ {
+ window.open("zadanie64_kod.html","zadanie64kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen65()
+ {
+ window.open("zadanie65.html","zadanie65","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen65_1()
+ {
+ window.open("zadanie65_kod.html","zadanie65kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen66()
+ {
+ window.open("zadanie66.html","zadanie66","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen66_1()
+ {
+ window.open("zadanie66_kod.html","zadanie66kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen67()
+ {
+ window.open("zadanie67.html","zadanie67","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen67_1()
+ {
+ window.open("zadanie67_kod.html","zadanie67kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen68()
+ {
+ window.open("zadanie68.html","zadanie68","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen68_1()
+ {
+ window.open("zadanie68_1.html","zadanie68kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen69()
+ {
+ window.open("zadanie69.html","zadanie69","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen69_1()
+ {
+ window.open("zadanie69_1.html","zadanie69_1","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen70()
+ {
+ window.open("zadanie70.html","zadanie70","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen70_1()
+ {
+ window.open("zadanie70_kod.html","zadanie70kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen71()
+ {
+ window.open("zadanie71.html","zadanie71","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen71_1()
+ {
+ window.open("zadanie71_kod.html","zadanie71kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen72()
+ {
+ window.open("zadanie72.html","zadanie72","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen72_1()
+ {
+ window.open("zadanie72_kod.html","zadanie72kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen73()
+ {
+ window.open("zadanie73.html","zadanie73","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen73_1()
+ {
+ window.open("zadanie73_kod.html","zadanie73kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen75()
+ {
+ window.open("zadanie75.html","zadanie75","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen75_1()
+ {
+ window.open("zadanie75_kod.html","zadanie75kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+ function WinOpen76()
+ {
+ window.open("zadanie76.html","zadanie76","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen76_1()
+ {
+ window.open("zadanie76_kod.html","zadanie76kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen77()
+ {
+ window.open("zadanie77.html","zadanie77","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen77_1()
+ {
+ window.open("zadanie77_kod.html","zadanie77kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen78()
+ {
+ window.open("zadanie78.html","zadanie78","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen78_1()
+ {
+ window.open("zadanie78_kod.html","zadanie78kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen79()
+ {
+ window.open("zadanie79.html","zadanie79","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+ function WinOpen79_1()
+ {
+ window.open("zadanie79_kod.html","zadanie79kod","toolbar=no,directories=no,menubar=no,height=500,width=860,top=200,left=200");
+ }
+
+
+
+ 
+ </script>
+ </head>
+<body style="background: linear-gradient(180deg, yellow, orange, red);">
+<div style="font-size:2cm; text-align: center; color: black">Kruk</div>
+
+ <form>
+  <h2 align="center" style=" color: black;">Zadania</h2>
+<hr style=" border: 5px solid orange;
+  border-radius: 5px;"></hr>
+  <div class="container">
+ <p><input class="btn btn1" type="button" name="przycisk" value="Zadanie 1 działanie" onclick="WinOpen(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 2 działanie" onclick="WinOpen2(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 3 teoria" onclick="WinOpen4(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 4 działanie" onclick="WinOpen5(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 5 działanie" onclick="WinOpen7(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 6 działanie" onclick="WinOpen8(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 7 działanie" onclick="WinOpen9(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 8 działanie" onclick="WinOpen10(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 9 działanie" onclick="WinOpen11(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 10 działanie" onclick="WinOpen12(' ')">
+ <input class="btn btn1" type="button" name="przycisk" value="Zadanie 11 działanie" onclick="WinOpen13(' ')">
+  <input class="btn btn1" type="button" name="przycisk" value="Zadanie 12 działanie" onclick="WinOpen14(' ')">
+  <input class="btn btn1" type="button" name="przycisk" value="Zadanie 13 działanie" onclick="WinOpen15(' ')">
+  <input class="btn btn1" type="button" name="przycisk" value="Zadanie 14(na celującą)" onclick="WinOpen23(' ')">
+  <input class="btn btn1" type="button" name="przycisk" value="Zadanie 18 działanie" onclick="WinOpen16(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 19 działanie" onclick="WinOpen17(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 14a działanie" onclick="WinOpen18(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 14b działanie" onclick="WinOpen19(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 17 działanie" onclick="WinOpen20(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 23 działanie" onclick="WinOpen21(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 21 działanie" onclick="WinOpen22(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 24 teoria" onclick="WinOpen24(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 25 teoria" onclick="WinOpen25(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 26 działanie" onclick="WinOpen26(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 27 działanie" onclick="WinOpen27(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 28 działanie" onclick="WinOpen28(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 62 działanie" onclick="WinOpen62(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 63 działanie" onclick="WinOpen63(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 64 działanie" onclick="WinOpen64(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 65 działanie" onclick="WinOpen65(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 66 działanie" onclick="WinOpen66(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 67 działanie" onclick="WinOpen67(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 68 działanie" onclick="WinOpen68(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 69 działanie" onclick="WinOpen69(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 70 działanie" onclick="WinOpen70(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 71 działanie" onclick="WinOpen71(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 72 działanie" onclick="WinOpen72(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 73 działanie" onclick="WinOpen73(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 75 działanie" onclick="WinOpen75(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 76 działanie" onclick="WinOpen76(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 77 działanie" onclick="WinOpen77(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 78 działanie" onclick="WinOpen78(' ')">
+<input class="btn btn1" type="button" name="przycisk" value="Zadanie 79 działanie" onclick="WinOpen79(' ')">
+</p>
+<hr style=" border: 5px solid orange;
+  border-radius: 5px;"></hr>
+  <h2 style=" color: black;">Kody</h2>
+
+<p>
+
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 1 kod" onclick="WinOpen1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 2 kod" onclick="WinOpen3(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 3 kod" onclick="WinOpen6(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 4 kod" onclick="WinOpen5_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 5 kod" onclick="WinOpen7_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 6 kod" onclick="WinOpen8_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 7 kod" onclick="WinOpen9_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 8 kod" onclick="WinOpen10_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 9 kod" onclick="WinOpen11_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 10 kod" onclick="WinOpen12_1(' ')">
+  <input class="btn btn2"type="button" name="przycisk" value="Zadanie 11 kod" onclick="WinOpen13_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 12 kod" onclick="WinOpen14_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 13 kod" onclick="WinOpen15_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 14 kod" onclick="WinOpen23_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 18 kod" onclick="WinOpen16_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 19 kod" onclick="WinOpen17_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 14a kod" onclick="WinOpen18_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 14b kod" onclick="WinOpen19_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 17 kod" onclick="WinOpen20_1(' ')">
+  <input class="btn btn2" type="button" name="przycisk" value="Zadanie 23 kod" onclick="WinOpen21_1(' ')">
+ <input class="btn btn2" type="button" name="przycisk" value="Zadanie 21 kod" onclick="WinOpen22_1(' ')">
+ <input class="btn btn2" type="button" name="przycisk" value="Zadanie 24 kod" onclick="WinOpen24_1(' ')">
+ <input class="btn btn2" type="button" name="przycisk" value="Zadanie 25 kod" onclick="WinOpen25_1(' ')">
+ <input class="btn btn2" type="button" name="przycisk" value="Zadanie 26 kod" onclick="WinOpen26_1(' ')">
+ <input class="btn btn2" type="button" name="przycisk" value="Zadanie 27 kod" onclick="WinOpen27_1(' ')">
+ <input class="btn btn2" type="button" name="przycisk" value="Zadanie 28 kod" onclick="WinOpen28_1(' ')">
+ <input class="btn btn2" type="button" name="przycisk" value="Zadanie 62 kod" onclick="WinOpen62_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 63 kod" onclick="WinOpen63_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 64 kod" onclick="WinOpen64_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 65 kod" onclick="WinOpen65_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 66 kod" onclick="WinOpen66_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 67 kod" onclick="WinOpen67_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 68 kod" onclick="WinOpen68_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 69 kod" onclick="WinOpen69_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 70 kod" onclick="WinOpen70_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 71 kod" onclick="WinOpen71_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 72 kod" onclick="WinOpen72_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 73 kod" onclick="WinOpen73_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 75 kod" onclick="WinOpen75_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 76 kod" onclick="WinOpen76_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 77 kod" onclick="WinOpen77_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 78 kod" onclick="WinOpen78_1(' ')">
+<input class="btn btn2" type="button" name="przycisk" value="Zadanie 79 kod" onclick="WinOpen79_1(' ')">
+</p>
+</div>
+<hr style=" border: 5px solid orange;;
+  border-radius: 5px;"></hr>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <style>
+   .ex {
+    border: solid 1px #000000;
+    background: #fffff5;
+    font-family: "Courier New", Courier, monospace; 
+    padding: 7px;
+    font-size: 80%;
+    margin: 0 0 1em;
+   }
+  </style>
+
+
+<script type="text/javascript">
+   function okno_zamknij_kruk()
+   {
+   window.close()
+   }
+   </script>
+
+
+ </head>
+ <body>
+
+   <input type="button" value="zamknij okno" onclick="okno_zamknij_kruk()"/></br>
+     Kod do pliku zadanie73.html
+     <p class="ex">
+        &lt;!DOCTYPE html&gt;</br>
+&lt;html lang=&quot;pl&quot;&gt;</br>
+</br>
+&lt;head&gt;</br>
+    &lt;meta charset=&quot;UTF-8&quot;&gt;</br>
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;</br>
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</br>
+&lt;/head&gt;</br>
+</br>
+&lt;body&gt;</br>
+    &lt;script&gt;</br>
+        var a_kru = prompt(&quot;Podaj nazwisko&quot;).length;</br>
+        var b_kru = prompt(&quot;Podaj imie&quot;).length;</br>
+        var policz_a = (a_kru % 4) + 5;</br>
+        var policz_b = (b_kru % 6) + 20;</br>
+        for (var i = 1; i &lt;= policz_a; i++) {</br>
+            for (var j = 1; j &lt;= policz_b; j++) {</br>
+                if (i == 1 || i == policz_a || j == 1 || j == policz_b) {</br>
+                    document.write(&quot;*&quot;);</br>
+                }</br>
+                else {</br>
+                    document.write(&quot;&amp;nbsp&amp;nbsp&quot;);</br>
+                }</br>
+            }</br>
+            document.write(&quot;&lt;br&gt;&quot;);</br>
+        }</br>
+    &lt;/script&gt;</br>
+&lt;/body&gt;</br>
+</br>
+&lt;/html&gt;</br>
+
+       
+
+
+
+    </p>
+</body>
+</html>

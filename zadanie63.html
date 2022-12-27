@@ -1,0 +1,37 @@
+<html> 
+<head> 
+<title>
+Zadanie 63
+</title>
+ <script language="JavaScript">
+
+function pole_kru(liczba)
+{
+                 var liczba;
+
+                 if(liczba==1||liczba==="czerwony"){
+                 pokaz1.innerHTML="<font color=silver size=4>wpisałes kolor czerwony</font>"+"<br>"
+}
+        else if(liczba==2||liczba==="niebieski"){
+                 pokaz1.innerHTML="<font color=silver size=4>wpisałes kolor niebieski</font>"+"<br>"
+        }
+}
+
+          </script>
+</head> 
+<body> 
+         <font color="green">Menu</font></br>
+         <font color="red">1-Czerwony</font></br>
+         <font color="blue">2-Niebieski</font></br>
+<br> <br>
+         <form name="formularz" action="..." onsubmit="pole_kru(this.liczba.value); return false"> 
+           <input size="6" name="liczba">
+ <br> <br>
+         <input TYPE="submit" Value="Sprawdź" >
+ <br> <br>
+</form>
+<table>
+           <tr id="pokaz1"></tr>
+</table>
+</body> 
+</html>

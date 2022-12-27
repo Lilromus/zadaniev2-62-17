@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <style>
+   .ex {
+    border: solid 1px #000000;
+    background: #fffff5;
+    font-family: "Courier New", Courier, monospace; 
+    padding: 7px;
+    font-size: 80%;
+    margin: 0 0 1em;
+   }
+  </style>
+
+  <script type="text/javascript">
+   function okno_zamknij_kruk()
+   {
+   window.close()
+   }
+   </script>
+
+
+ </head>
+ <body>
+   Kod do pliku zadanie65.html
+  <p class="ex">
+    &lt;html&gt; </br>
+&lt;head&gt; </br>
+&lt;title&gt;</br>
+Zadanie 65</br>
+&lt;/title&gt;</br>
+ &lt;script language=&quot;JavaScript&quot;&gt;</br>
+function rok(kru_rok)</br>
+{</br>
+                 kru_rok=parseFloat(kru_rok)</br>
+                  if(kru_rok==1995){</br>
+              pokaz1.innerHTML=&quot;&lt;font color=blue size=4&gt;Brawo znasz rok od kiedy działa Javasript!&lt;/font&gt;&quot;+&quot;&lt;br&gt;&quot;+&quot;Wczytany rok=&quot;+kru_rok</br>
+                  }</br>
+                    else {</br>
+              pokaz1.innerHTML=&quot;&lt;font color=red size=7&gt;Źle musisz jeszcze poczytać!&lt;/font&gt;&quot;+&quot;&lt;br&gt;&quot;+&quot;&lt;font color=red size=7&gt;Wczytany rok=&lt;/font&gt;&quot;+kru_rok</br>
+                      }</br>
+                    </br>
+       }           </br>
+    </br>
+</br>
+</br>
+</br>
+      &lt;/script&gt;</br>
+&lt;/head&gt; </br>
+&lt;body&gt; </br>
+         &lt;font color=&quot;green&quot; size=&quot;10&quot;&gt;Wpisz rok od kt&oacute;rego działa JavaScript&lt;/font&gt;&lt;/br&gt;</br>
+&lt;br&gt; &lt;br&gt;</br>
+         &lt;form name=&quot;formularz&quot; action=&quot;...&quot; onsubmit=&quot;rok(this.kru_rok.value); return false&quot;&gt; </br>
+           &lt;input size=&quot;6&quot; name=&quot;kru_rok&quot;&gt;</br>
+ &lt;br&gt; &lt;br&gt;</br>
+         &lt;input TYPE=&quot;submit&quot; Value=&quot;Sprawdź&quot; &gt;</br>
+ &lt;br&gt; &lt;br&gt;</br>
+&lt;/form&gt;</br>
+&lt;table&gt;</br>
+           &lt;tr id=&quot;pokaz1&quot;&gt;&lt;/tr&gt;</br>
+        </br>
+&lt;/table&gt;</br>
+&lt;/body&gt; </br>
+&lt;/html&gt;</br>
+</br>
+</p>
+</body>
+</html>

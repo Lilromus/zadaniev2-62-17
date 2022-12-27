@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <style>
+   .ex {
+    border: solid 1px #000000;
+    background: #fffff5;
+    font-family: "Courier New", Courier, monospace; 
+    padding: 7px;
+    font-size: 80%;
+    margin: 0 0 1em;
+   }
+  </style>
+
+
+<script type="text/javascript">
+   function okno_zamknij_kruk()
+   {
+   window.close()
+   }
+   </script>
+
+
+ </head>
+ <body>
+
+   <input type="button" value="zamknij okno" onclick="okno_zamknij_kruk()"/></br>
+   <p class="ex">
+     Kod do pliku zadanie79.html
+     &lt;html&gt;</br>
+&lt;body&gt;</br>
+&lt;div style=&quot;color:blue;font-size:40px;&quot;&gt;</br>
+&lt;script language=&quot;JavaScript&quot;&gt;</br>
+</br>
+var r_kru=prompt(&quot;Podaj r=: &quot;,&quot;&quot;);</br>
+</br>
+var r=parseFloat(r_kru);</br>
+var licznik=0;</br>
+</br>
+for(var j=-Math.round(r)-1; j&lt;=Math.round(r)+1; j++)</br>
+{</br>
+	for(var i=-Math.round(r); i &lt;= Math.round(r); i++)</br>
+	{</br>
+		if(Math.sqrt(j*j + i*i)&lt;=r)</br>
+		{</br>
+		licznik++;</br>
+		}</br>
+	}</br>
+}</br>
+document.write(licznik);</br>
+</br>
+&lt;/script&gt;</br>
+&lt;/div&gt;</br>
+&lt;/body&gt;</br>
+&lt;/html&gt;</br>
+
+    </p>
+</body>
+</html>

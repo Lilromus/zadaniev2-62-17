@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script>
+        var a_kru = prompt("Podaj nazwisko").length;
+        var b_kru = prompt("Podaj imie").length;
+        var policz_a = (a_kru % 4) + 5;
+        var policz_b = (b_kru % 6) + 20;
+        for (var i = 1; i <= policz_a; i++) {
+            for (var j = 1; j <= policz_b; j++) {
+                if (i == 1 || i == policz_a || j == 1 || j == policz_b) {
+                    document.write("*");
+                }
+                else {
+                    document.write("&nbsp&nbsp");
+                }
+            }
+            document.write("<br>");
+        }
+    </script>
+</body>
+
+</html>

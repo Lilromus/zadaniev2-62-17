@@ -1,0 +1,26 @@
+<html>
+<body>
+<div style="color:blue;font-size:40px;">
+<script language="JavaScript">
+
+var r_kru=prompt("Podaj r= ","");
+
+var r=parseFloat(r_kru);
+var licznik=0;
+
+for(var j=-Math.round(r)-1; j<=Math.round(r)+1; j++)
+{
+	for(var i=-Math.round(r); i <= Math.round(r); i++)
+	{
+		if(Math.sqrt(j*j + i*i)<=r)
+		{
+		licznik++;
+		}
+	}
+}
+document.write(licznik);
+
+</script>
+</div>
+</body>
+</html>

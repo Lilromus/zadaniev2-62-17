@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script language="JavaScript">
+        var a_kru = prompt("a = ");
+        var a = parseFloat(a_cho);
+        var b_kru = prompt("b = ");
+        var b = parseFloat(b_kru);
+        for (var i = 0; i < b_kru; i++) {
+            document.write("*");
+        }
+        var wiersz_kru = "*";
+        for (var i = 1; i <= (b - 2); i++) {
+            wiersz_kru = wiersz_kru + "&nbsp&nbsp";
+            var wiersz = "*";
+
+        }
+        for (var j = 0; j < a; j++) {
+            document.write("<br>");
+            document.write(wiersz_kru);
+            document.write(wiersz);
+        }
+        document.write("<br>");
+        for (i = 0; i < b_kru; i++) {
+            document.write("*");
+        }
+    </script>
+</body>
+
+</html>

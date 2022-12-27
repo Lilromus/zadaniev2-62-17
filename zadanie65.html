@@ -1,0 +1,38 @@
+<html> 
+<head> 
+<title>
+Zadanie 63
+</title>
+ <script language="JavaScript">
+function rok(kru_rok)
+{
+                 kru_rok=parseFloat(kru_rok)
+                  if(kru_rok==1995){
+              pokaz1.innerHTML="<font color=blue size=4>Brawo znasz rok od kiedy działa Javasript!</font>"+"<br>"+"Wczytany rok="+kru_rok
+                  }
+                    else {
+              pokaz1.innerHTML="<font color=red size=7>Źle musisz jeszcze poczytać!</font>"+"<br>"+"<font color=red size=7>Wczytany rok=</font>"+kru_rok
+                      }
+
+       }           
+
+
+
+
+      </script>
+</head> 
+<body> 
+         <font color="green" size="10">Wpisz rok od którego działa JavaScript</font></br>
+<br> <br>
+         <form name="formularz" action="..." onsubmit="rok(this.kru_rok.value); return false"> 
+           <input size="6" name="kru_rok">
+ <br> <br>
+         <input TYPE="submit" Value="Sprawdź" >
+ <br> <br>
+</form>
+<table>
+           <tr id="pokaz1"></tr>
+
+</table>
+</body> 
+</html>

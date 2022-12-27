@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <style>
+   .ex {
+    border: solid 1px #000000;
+    background: #fffff5;
+    font-family: "Courier New", Courier, monospace; 
+    padding: 7px;
+    font-size: 80%;
+    margin: 0 0 1em;
+   }
+  </style>
+
+  <script type="text/javascript">
+   function okno_zamknij_kruk()
+   {
+   window.close()
+   }
+   </script>
+
+
+ </head>
+ <body>
+   Kod do pliku zadanie64.html
+  <p class="ex">
+    &lt;html&gt; </br>
+    &lt;head&gt; </br>
+    &lt;title&gt;</br>
+    Zadanie 63</br>
+    &lt;/title&gt;</br>
+     &lt;script language=&quot;JavaScript&quot;&gt;</br>
+    function pole_kru(liczba)</br>
+    {</br>
+                     
+                      if(liczba % 2 == 0){</br>
+                  pokaz1.innerHTML=&quot;&lt;font color=silver size=4&gt;Liczba jest parzystą!&lt;/font&gt;&quot;+&quot;&lt;br&gt;&quot;</br>
+                      }</br>
+                        else {</br>
+                  pokaz1.innerHTML=&quot;&lt;font color=silver size=4&gt;Liczba jest nieparzystą!&lt;/font&gt;&quot;+&quot;&lt;br&gt;&quot;</br>
+                          }</br>
+                        </br>
+           }           </br>
+    
+        </br>
+    </br>
+    </br>
+          &lt;/script&gt;</br>
+    &lt;/head&gt; </br>
+    &lt;body&gt; </br>
+             &lt;font color=&quot;green&quot;&gt;Wpisz liczbę&lt;/font&gt;&lt;/br&gt;</br>
+    &lt;br&gt; &lt;br&gt;</br>
+             &lt;form name=&quot;formularz&quot; action=&quot;...&quot; onsubmit=&quot;pole_kru(this.liczba.value); return false&quot;&gt; </br>
+               &lt;input size=&quot;6&quot; name=&quot;liczba&quot;&gt;</br>
+     &lt;br&gt; &lt;br&gt;</br>
+             &lt;input TYPE=&quot;submit&quot; Value=&quot;Sprawdź&quot; &gt;</br>
+     &lt;br&gt; &lt;br&gt;</br>
+    &lt;/form&gt;</br>
+    &lt;table&gt;</br>
+               &lt;tr id=&quot;pokaz1&quot;&gt;&lt;/tr&gt;</br>
+    &lt;/table&gt;</br>
+    &lt;/body&gt; </br>
+    &lt;/html&gt;</br>
+</br>
+    </p>
+  </body>
+</html>

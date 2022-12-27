@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zadanie 76</title>
+    </head>
+    <body>
+        <script>
+            function calculateRoot(value, degree){
+                return Math.pow(value, 1.0 / degree);
+            }
+
+            var pomoc=0;
+            var i=0;
+            var w;
+
+            do{
+                for(i=pomoc; i<=pomoc+4; i++){
+                    w=(i*i+i+41);
+                    document.write("i= "+i+"  "+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppierw_2("+w+")= "+calculateRoot(w,2)+"&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppierw_4("+w+")= "+calculateRoot(w,4)+"</br>")
+                }
+                pomoc = pomoc+5;
+            }
+            while(confirm("Kliknij dowolny przycisk, aby kontynulowac!"))
+        </script>
+    </body>
+</html>
